@@ -11,6 +11,7 @@
 }
 
 .site-title {
+  border-bottom: none;
   font-size: 26px;
   font-weight: 300;
   line-height: 56px;
@@ -33,6 +34,7 @@
   }
 
   .page-link {
+    border-bottom: none;
     color: $text-color;
     line-height: $base-line-height;
 
@@ -185,8 +187,9 @@
 }
 
 .post-link {
+  border-bottom: none;
   display: block;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 
@@ -199,7 +202,7 @@
 }
 
 .post-title {
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: -1px;
   line-height: 1;
 
@@ -292,9 +295,11 @@
     }
 
 
+* {word-break: break-all!important;}
 
-
-
+.site-avatar {
+  float: left;
+}
 
 
 

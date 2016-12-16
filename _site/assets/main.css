@@ -154,6 +154,7 @@ pre {
   position: relative; }
 
 .site-title {
+  border-bottom: none;
   font-size: 26px;
   font-weight: 300;
   line-height: 56px;
@@ -169,6 +170,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
+    border-bottom: none;
     color: #111;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
@@ -277,8 +279,9 @@ pre {
   color: #828282; }
 
 .post-link {
+  border-bottom: none;
   display: block;
-  font-size: 24px; }
+  font-size: 20px; }
 
 /**
  * Posts
@@ -287,7 +290,7 @@ pre {
   margin-bottom: 5px; }
 
 .post-title {
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 1024px) {
@@ -361,6 +364,12 @@ pre {
   position: absolute;
   background: url("//i.imgur.com/TxzC70f.png") no-repeat;
   cursor: pointer; }
+
+* {
+  word-break: break-all !important; }
+
+.site-avatar {
+  float: left; }
 
 .stitched {
   padding: 7px;
