@@ -17,8 +17,8 @@ title: അടുക്കള
 email: contact@justinechacko.in
 description: > # this means to ignore newlines until "baseurl:"
   kerala food recipes, kerala kitchen dishes.
-baseurl: "/kitchen" 
-url: "http://justinechacko.github.io" 
+baseurl: "" 
+url: "" 
 
 
 # Build settings
