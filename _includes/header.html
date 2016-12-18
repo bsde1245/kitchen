@@ -1,8 +1,26 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-
+<br>
+<div class="site-avatar"><img src="{{ site.baseurl }}/me.png">
+</div>
     <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+
+
+
+ <div class="grid" id="searchBar">
+      <div>
+          <div id="search">
+              <form role="search" method="get" action="{{site.baseurl}}/search/">
+                  <input id="searchString" name="searchString"
+                         placeholder="തിരയുക" type="text">
+                  <input id="searchButton" name="googleSearchName" type="submit" value="തിരയുക">
+              </form>
+          </div>         
+      </div>
+  </div>
+
+
 
     <nav class="site-nav">
       <span class="menu-icon">
@@ -21,6 +39,22 @@
         {% endfor %}
       </div>
     </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   </div>
 

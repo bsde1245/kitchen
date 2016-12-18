@@ -212,9 +212,11 @@
 }
 
 .post-content {
+
   margin-bottom: $spacing-unit;
 
   h2 {
+
     font-size: 32px;
 
     @include media-query($on-laptop) {
@@ -295,20 +297,81 @@
     }
 
 
-* {word-break: break-all!important;}
+#searchBar {
+       font-size: 80%;
+       padding: 0.43em 0 0.57em;
+
+       #search {
+         float: right;
+
+         #searchString {
+           width: 133px;
+           border: none;
+           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+           padding: 0.3em 0.6em;
+           background-color: #f6f5ea;
+           margin-right: 0;
+         }
+
+         #searchButton {
+           paddign: 0.3em 0.6em;
+           background-color: #847f77;
+           border: 1px solid #000000;
+           margin-left: 0;
+           color: #000000;
+           -webkit-appearance: none;
+           border-radius: 0;
+         }
+
+         #archives {
+           line-height: 2;
+           float: left;
+           color: #000000;
+           text-wrap: avoid;
+         }
+       }
+     }
+
+
 
 .site-avatar {
   float: left;
 }
 
-.site-tag {
-  border-bottom: none;
+
+
+
+* {word-break: break-all!important;}
+
+
+.layout1 {
+   padding: 5px;
+   margin: 10px;
+   background: #caeaf0;
+   border-radius: 3px;
+   box-shadow: 0 0 0 6px #ffffff, 1px 1px 6px 8px rgba(10, 10, 0, 0.4);   
+}
+
+
+
+.post-link1 {
+   border-bottom: none;
 }
 
 
 
 
-.stitched {
+
+
+
+
+
+
+
+
+
+
+.stitched1 {
 padding: 7px;
    background: #e1ebf2;
    color: #000;
@@ -318,10 +381,7 @@ padding: 7px;
    text-shadow: -1px -1px #ecf3f7;
 }
 
-body {
-  padding-left: 5px;
-  padding-right: 5px;
-}
+
 
 
 

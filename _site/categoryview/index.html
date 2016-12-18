@@ -7,15 +7,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <title>ടാഗുകൾ</title>
-  <meta name="description" content="kerala food recipes, kerala kitchen dishes.">
+  <meta name="description" content="Tech news, mobile, gadgets, reviews, apps, internet.">
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/categoryview/">
-  <link rel="alternate" type="application/rss+xml" title="അടുക്കള" href="/feed.xml">
-  
+  <link rel="alternate" type="application/rss+xml" title="ജസ്റ്റിൻ ചാക്കോ" href="/feed.xml">
+  <style>
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.pagination li {display: inline;}
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+</style>
 
-  
-</head>
 
 <script>
  
@@ -51,13 +69,37 @@
     }
  
 </script>
+
+
+  
+</head>
+
+
   <body>
 
     <header class="site-header" role="banner">
 
   <div class="wrapper">
+<br>
+<div class="site-avatar"><img src="/me.png">
+</div>
+    <a class="site-title" href="/">ജസ്റ്റിൻ ചാക്കോ</a>
 
-    <a class="site-title" href="/">അടുക്കള</a>
+
+
+ <div class="grid" id="searchBar">
+      <div>
+          <div id="search">
+              <form role="search" method="get" action="/search/">
+                  <input id="searchString" name="searchString"
+                         placeholder="തിരയുക" type="text">
+                  <input id="searchButton" name="googleSearchName" type="submit" value="തിരയുക">
+              </form>
+          </div>         
+      </div>
+  </div>
+
+
 
     <nav class="site-nav">
       <span class="menu-icon">
@@ -83,11 +125,31 @@
           
         
           
+          <a class="page-link" href="/search/">തിരയുക</a>
+          
+        
+          
         
           
         
       </div>
     </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   </div>
 
@@ -98,7 +160,7 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post">
-
+<div class="layout1">
   <header class="post-header">
     <h1 class="post-title">ടാഗുകൾ</h1>
   </header>
@@ -125,7 +187,7 @@
 
 
 
-  <h5><a href="http://localhost:4000/general/2016/12/13/welcome-to-my-blog.html" title="ഹായ് എന്റെ ആദ്യ ലേഖനം!!">ഹായ് എന്റെ ആദ്യ ലേഖനം!!</a></h5>
+  <h5><a href="http://localhost:4000/general/2016/10/29/welcome-to-my-blog.html" title="ഹായ് എന്റെ ആദ്യ ലേഖനം!!">ഹായ് എന്റെ ആദ്യ ലേഖനം!!</a></h5>
    
 
 
@@ -136,7 +198,7 @@
 
   
 </div>
-
+</div>
 </article>
 
       </div>
@@ -167,7 +229,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>kerala food recipes, kerala kitchen dishes.
+        <p>Tech news, mobile, gadgets, reviews, apps, internet.
 </p>
       </div>
     </div>
